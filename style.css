@@ -1,0 +1,126 @@
+body, html{
+    height: 100%;
+    font-family: sans-serif;
+    margin: auto;
+    padding: auto;
+}
+
+/*----------HEADER----------*/
+
+header{
+    background: #76d528;
+}
+
+header img{
+    height: 50px;
+}
+
+/*----------HERO IMAGE----------*/
+
+.hero-image{
+    position: relative;
+    height: 60%;
+    background: url(../Images/hero.jpg) no-repeat center;
+    background-size: cover;
+}
+.hero-text {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0 1% 0 1%;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #444444;
+}
+section h1{
+    font-size: 1.5em;
+}
+
+
+
+
+/*----------ZOEKEN----------*/
+
+
+/*----------DROP-------------*/
+
+
+
+/*---------SLIDER---------*/
+
+
+.slider {
+    display: flex;
+    background-color: #f7f7f7;
+    position: relative;
+    padding-top: 10%;
+    overflow-x: auto;
+    overflow-y: hidden; 
+}
+.slider-wit {
+    display: flex;
+    background-color: #ffffff;
+    position: relative;
+    padding-top: 10%; 
+    overflow-x: auto;
+    overflow-y: hidden; 
+}
+section img{
+    border-radius: 5px;
+    width: 200px;
+    height: 350px;
+}
+.slider > article {
+  /* make sure the width is honored */
+    padding-left: 5%;
+}
+.slider-wit > article {
+  /* make sure the width is honored */
+    padding-left: 5%;
+}
+span > h3{
+    padding:0 0 10px 0;
+}
+/*++---------FORM-----------*/
+
+
+
+/*++---------Footer-----------*/
+
+h4{
+    text-align: center;
+}
+.fa {
+  padding: 3%;
+  width: 4%;;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-left: 9%; 
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+
+
