@@ -19,7 +19,7 @@ header img{
 
 .hero-image{
     position: relative;
-    height: 60%;
+    height: 61%;
     background: url(../Images/hero.jpg) no-repeat center;
     background-size: cover;
 }
